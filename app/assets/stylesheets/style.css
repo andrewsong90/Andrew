@@ -1,0 +1,51 @@
+.custom {
+    position: fixed;
+    height: 40px;
+    background-color: #333333;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.custom > ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.custom > ul > li {
+    float: left;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 18px;
+}
+
+.custom > ul > li > a {
+    color: #FFBF00;
+}
+
+.custom > ul > li > a:visited {
+    background-color: #aaa;
+}
+
+.custom > ul > li > a:hover {
+    background-color: #aaa;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: #aaa;
+}
+
+.row-fluid {
+    margin: 10px;
+}
+
+.row-fluid .content {
+    padding: 10px;
+    background-color: #fff;
+}
+
