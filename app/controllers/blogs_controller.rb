@@ -12,5 +12,9 @@ class BlogsController < ApplicationController
 
   end
 
+  def contact
+
+  end
+
 
 end

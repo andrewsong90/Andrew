@@ -17,6 +17,7 @@ Andrew::Application.routes.draw do
 
   get "/" => 'blogs#index'
   get "/about" => 'blogs#about'
+  get "/contact" => 'blogs#contact'
 
   # Sample resource route with options:
   #   resources :products do
