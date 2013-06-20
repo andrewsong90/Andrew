@@ -1,4 +1,13 @@
 
+body {
+    background: url("/assets/green_background.jpg") center center fixed;
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+}
+
 .title {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -12,6 +21,13 @@
     top: 0;
     left: 0;
     right: 0;
+}
+
+.custom .nav {
+    width:400px;
+
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .custom > ul {
@@ -39,6 +55,10 @@
     background-color: #aaa;
 }
 
+p > a {
+    color: #005188;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -47,9 +67,7 @@ body {
     background-color: #acd16c;
 }
 
-.container{
-    background-color: #738b48;
-}
+
 
 .row-fluid {
     margin: 10px;
@@ -64,14 +82,20 @@ body {
 }
 
 
-.content{
+.thumb .content{
     margin: 10px;
+    float: left;
+    width: 550px;
+}
+
+.clear{
+    clear: both;
 }
 
 .image{
     margin: 15px;
-    width: 300px;
-    display: inline-block;
+    width: 250px;
+    float: left;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -94,7 +118,8 @@ body {
 
 .container {
     border: 0px;
-    margin-top: 15px;
+    margin-top: 30px;
+    background-color: #738b48;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
     border-radius: 12px;
