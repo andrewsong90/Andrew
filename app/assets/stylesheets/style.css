@@ -44,24 +44,60 @@ a:hover {
 }
 
 body {
-    background-color: #aaa;
+    background-color: #acd16c;
+}
+
+.container{
+    background-color: #738b48;
 }
 
 .row-fluid {
     margin: 10px;
 }
 
-.row-fluid .content {
-    padding: 10px;
-    background-color: #fff;
+.thumb{
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    margin: 15px;
+    background-color: #a9dba9;
 }
 
+
+.content{
+    margin: 10px;
+}
+
+.image{
+    margin: 15px;
+    width: 300px;
+    display: inline-block;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+}
+
+
+
 #sidebar {
-    background-color: #86877c;
+    background-color: #dbd589;
 }
 
 .well {
     border: 0px;
+    margin-top: 10px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.container {
+    border: 0px;
+    margin-top: 15px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
 }
 
 p {
