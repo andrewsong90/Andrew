@@ -17,7 +17,7 @@ body {
 .custom {
     position: fixed;
     height: 45px;
-    background-color: #333333;
+    background-color: #304233; /*#333333;*/
     top: 0;
     left: 0;
     right: 0;
@@ -51,10 +51,6 @@ body {
     background-color: #aaa;
 }
 
-.custom > ul > li > a:hover {
-    background-color: #aaa;
-}
-
 p > a {
     color: #005188;
 }
@@ -85,7 +81,7 @@ body {
 .thumb .content{
     margin: 10px;
     float: left;
-    width: 550px;
+    width: 570px;
 }
 
 .clear{

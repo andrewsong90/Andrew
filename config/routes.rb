@@ -17,7 +17,10 @@ Andrew::Application.routes.draw do
 
   get "/" => 'blogs#index'
   get "/about" => 'blogs#about'
-  get "/contact" => 'blogs#contact'
+  get "/works" => 'blogs#works'
+  match 'auth/:provider/callback' => 'sessions#create'
+  match 'auth/failure' => redirect('/')
+  match 'signout', to: 'sessions#destroy', as: 'signout'
 
   # Sample resource route with options:
   #   resources :products do

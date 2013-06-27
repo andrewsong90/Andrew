@@ -1,5 +1,7 @@
 class BlogsController < ApplicationController
 
+  include BlogsHelper
+
   def index
 
   end
@@ -12,9 +14,8 @@ class BlogsController < ApplicationController
 
   end
 
-  def contact
+  def works
 
   end
-
 
 end
