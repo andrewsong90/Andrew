@@ -18,4 +18,8 @@ class BlogsController < ApplicationController
 
   end
 
+  def contacts
+
+  end
+
 end

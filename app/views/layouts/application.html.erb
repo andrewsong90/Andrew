@@ -2,6 +2,11 @@
 <html>
 <head>
   <title><%= full_title(yield(:title))%></title>
+
+  <link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -15,7 +20,7 @@
       ga('create', 'UA-41457008-1', 'herokuapp.com');
       ga('send', 'pageview');
 
-      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
   </script>
 
@@ -27,11 +32,10 @@
         <div class="custom">
 
             <ul>
-              <li><a href="/">Andrew Song</a></li>
-              <li><a href="/about">About Me</a></li>
-              <li><a href="/works">Works</a> </li>
-              <li><a href="/posts">Blog</a></li>
-
+                  <li><a href="/">Andrew Song</a></li>
+                  <li><a href="/about">About Me</a></li>
+                  <li><a href="/works">Works</a> </li>
+                  <li><a href="/contacts">Contacts</a></li>
             </ul>
           <!--
             <% if current_user %>

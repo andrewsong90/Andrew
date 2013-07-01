@@ -16,41 +16,39 @@ body {
 
 .custom {
     position: fixed;
+    font-family: 'Acme', sans-serif;
     height: 45px;
     background-color: #304233; /*#333333;*/
     top: 0;
     left: 0;
     right: 0;
+
+    .nav {
+        width:400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+        width:365px;
+        margin-left: auto;
+        margin-right: auto;
+
+        li{
+              float: left;
+              margin-top: 10px;
+              margin-left: 7px;
+              margin-right: 7px;
+              font-size: 18px;
+
+          a{
+              color: #FFBF00;
+            }
+        }
+    }
 }
-
-.custom .nav {
-    width:400px;
-
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.custom > ul {
-    list-style-type: none;
-    overflow: hidden;
-}
-
-.custom > ul > li {
-    float: left;
-    margin-top: 10px;
-    margin-left: 7px;
-    margin-right: 7px;
-    font-size: 18px;
-}
-
-.custom > ul > li > a {
-    color: #FFBF00;
-}
-
-.custom > ul > li > a:visited {
-    background-color: #aaa;
-}
-
 p > a {
     color: #005188;
 }
@@ -123,9 +121,12 @@ body {
 
 p {
     font-size: 16px;
-
+    font-family: 'Istok Web', sans-serif;
 }
 
+.title{
+  font-family: 'Titillium Web', sans-serif;
+}
 .indent {
     position: relative;
     left: 40px;

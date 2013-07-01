@@ -18,6 +18,7 @@ Andrew::Application.routes.draw do
   get "/" => 'blogs#index'
   get "/about" => 'blogs#about'
   get "/works" => 'blogs#works'
+  get "/contacts" => 'blogs#contacts'
   match 'auth/:provider/callback' => 'sessions#create'
   match 'auth/failure' => redirect('/')
   match 'signout', to: 'sessions#destroy', as: 'signout'
