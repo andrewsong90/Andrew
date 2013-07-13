@@ -35,7 +35,6 @@
                   <li><a href="/">Andrew Song</a></li>
                   <li><a href="/about">About Me</a></li>
                   <li><a href="/works">Works</a> </li>
-                  <li><a href="/contacts">Contacts</a></li>
             </ul>
           <!--
             <% if current_user %>
@@ -53,11 +52,15 @@
 
     <br>
 
+
     <div class="container">
         <%= yield %>
       <br><br>
-      <a href="https://twitter.com/GreatAndrew90" class="twitter-follow-button" data-size="large" data-lang="en">Follow @GreatAndrew90</a>
+      <% if false %>
+        <a href="https://twitter.com/GreatAndrew90" class="twitter-follow-button" data-size="large" data-lang="en">Follow @GreatAndrew90</a>
+      <% end %>
     </div>
+
 
 </body>
 </html>

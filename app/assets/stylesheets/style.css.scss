@@ -1,6 +1,6 @@
 
 body {
-    background: url("/assets/green_background.jpg") center center fixed;
+    background: url("/assets/green_background2.jpg") center center fixed;
     background-repeat: repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -32,7 +32,7 @@ body {
     ul {
         list-style-type: none;
         overflow: hidden;
-        width:365px;
+        width:260px;
         margin-left: auto;
         margin-right: auto;
 
@@ -84,6 +84,11 @@ body {
 
 .clear{
     clear: both;
+}
+
+img{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .image{
