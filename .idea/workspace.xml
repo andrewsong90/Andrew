@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0563d8d-50d9-4a7d-9f62-19045874bfbb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="Andrew.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374529609866" ignored="false" />
+    <file path="/Dummy.txt" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374556781981" ignored="false" />
     <file path="/posts_controller.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1370921419338" ignored="false" />
     <file path="/blogs_controller.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1372648325633" ignored="false" />
     <file path="/routes.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374209053323" ignored="false" />
@@ -31,6 +31,7 @@
     <file path="/en.yml" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374529942408" ignored="false" />
     <file path="/kor.yml" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374549072516" ignored="false" />
     <file path="/font_kor.css.scss" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374545755251" ignored="false" />
+    <file path="/production.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374556958690" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +51,25 @@
       <file leaf-file-name="about.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/blogs/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="41" selection-start="742" selection-end="742" vertical-scroll-proportion="-9.214286">
+            <state line="34" column="41" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="52" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.41311854">
+            <state line="31" column="67" selection-start="1655" selection-end="1655" vertical-scroll-proportion="-19.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="46" selection-start="687" selection-end="687" vertical-scroll-proportion="0.33835617">
               <folding />
             </state>
           </provider>
@@ -68,7 +78,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.7142856">
+            <state line="4" column="8" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,15 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kor.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/kor.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="40" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="font_en.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font_en.css.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/initializers/twitter_settings.rb" />
         <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/youtube_api.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
@@ -171,14 +171,15 @@
         <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1592" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="1616" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -206,8 +207,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -616,6 +615,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -858,11 +859,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: Andrew" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: Andrew" />
-      <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: Andrew" />
+      <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: Andrew" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Production: Andrew" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Development: Andrew" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -902,14 +903,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6704901" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22411953" sideWeight="0.6704901" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22715573" sideWeight="0.6704901" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -980,13 +981,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/locales/kor.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="30" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/youtube_api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="19" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" />
@@ -1032,9 +1026,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/works.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="34" selection-start="493" selection-end="493" vertical-scroll-proportion="0.25221238">
-          <folding />
-        </state>
+        <state line="21" column="34" selection-start="493" selection-end="493" vertical-scroll-proportion="0.25221238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
@@ -1053,7 +1045,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.7142856">
+        <state line="4" column="8" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1067,7 +1059,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="41" selection-start="742" selection-end="742" vertical-scroll-proportion="-9.214286">
+        <state line="34" column="41" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1081,7 +1073,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="52" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.41311854">
+        <state line="31" column="67" selection-start="1655" selection-end="1655" vertical-scroll-proportion="-19.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="46" selection-start="687" selection-end="687" vertical-scroll-proportion="0.33835617">
           <folding />
         </state>
       </provider>
