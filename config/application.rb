@@ -56,6 +56,7 @@ module Andrew
     # Enable the asset pipeline
     config.assets.enabled = true
 
+    config.assets.precompile += %w(*.js *.css)
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
   end

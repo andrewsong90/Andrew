@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0563d8d-50d9-4a7d-9f62-19045874bfbb" name="Default" comment="" />
+    <list default="true" id="d0563d8d-50d9-4a7d-9f62-19045874bfbb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+    </list>
     <ignored path="Andrew.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374556781981" ignored="false" />
@@ -31,6 +33,7 @@
     <file path="/font_kor.css.scss" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374545755251" ignored="false" />
     <file path="/production.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374556958690" ignored="false" />
     <file path="/application.css" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374586332890" ignored="false" />
+    <file path="/application.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1374587490996" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +86,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="93" selection-start="567" selection-end="567" vertical-scroll-proportion="0.37254903">
+            <state line="14" column="93" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="16" selection-start="2703" selection-end="2703" vertical-scroll-proportion="0.74509805">
               <folding />
             </state>
           </provider>
@@ -128,15 +140,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font_en.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font_en.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="1" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -155,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/youtube_api.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app/views/blogs/contacts.html.erb" />
         <option value="$PROJECT_DIR$/app/views/blogs/works.html.erb" />
@@ -171,6 +173,7 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
       </list>
     </option>
   </component>
@@ -980,11 +983,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/youtube_api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1079,7 +1077,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="93" selection-start="567" selection-end="567" vertical-scroll-proportion="0.37254903">
+        <state line="14" column="93" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="16" selection-start="2703" selection-end="2703" vertical-scroll-proportion="0.74509805">
           <folding />
         </state>
       </provider>
