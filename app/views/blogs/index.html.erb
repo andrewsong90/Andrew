@@ -1,37 +1,22 @@
 <div class="well span3" id="sidebar">
 
     <br>
-    <img src="/assets/andrew.jpg" alt="profile picture"/>
+    <div class="slide-up">
+        <img src="/assets/andrew.jpg" alt="profile picture"/>
+        <img src="/assets/andrew2.jpg" alt="profile picture"/>
+    </div>
   </div>
 
   <div class="span8">
 
     <div class="content">
       <div class="title">
-        <h3>Andrew Song (Hyungsuk Song)</h3>
+        <h3><%= t "name" %></h3>
         <h4>andrew90@mit.edu / andrewsong90@gmail.com</h4>
       </div>
 
 
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;I am a junior at MIT (Class of 2015), currently majoring in Electrical Engineering & Computer Science.
-        I have dual citizenships both in US and South Korea. As a result, I served as South Korean Army Force for
-        two years, during which I have been part of UN peacekeeping force in Lebanon, or
-        <a href="http://unifil.unmissions.org" target="_blank">UNIFIL</a> (United Nations Interim Force in Lebanon),
-        for six months. For more details of my life, please check out "About Me" section.
-      </p>
-
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;I am currently a member of <a href="http://groups.csail.mit.edu/EVO-DesignOpt/" target="_blank">The ALFA group</a>
-        in MIT CSAIL(Computer Science and Artificial Intelligence Laboratory). My current research field is Evolutionary Algorithm.
-      </p>
-
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;I am a huge fan of Arsenal FC, ever since 2008, when Thierry Henry was still the hero of the team. My ups and downs for the week
-        are strongly correlated with how Arsenal has performed that week.
-      </p>
-
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;If you have any questions about me, please contact me through my email address above, or my facebook account</p>
+      <%= t "main_intro_html" %>
 
       <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
       <!--<div id="player"></div>-->

@@ -13,12 +13,18 @@ Andrew::Application.routes.draw do
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
-  resources :posts
+  # resources :posts
 
-  get "/" => 'blogs#index'
-  get "/about" => 'blogs#about'
-  get "/works" => 'blogs#works'
-  get "/contacts" => 'blogs#contacts'
+  scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
+    root to: 'blogs#index', as: "main"
+    get "about" => 'blogs#about', as: "about"
+    get "works" => 'blogs#works', as: "works"
+    get "contacts" => 'blogs#contacts'
+  end
+
+  match '*path', to: redirect("/#{I18n.default_locale}/%{path}")
+  match '', to: redirect("/#{I18n.default_locale}")
+
   match 'auth/:provider/callback' => 'sessions#create'
   match 'auth/failure' => redirect('/')
   match 'signout', to: 'sessions#destroy', as: 'signout'

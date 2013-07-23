@@ -15,7 +15,7 @@ body {
 }
 
 .custom {
-    position: fixed;
+    position: relative;
     font-family: 'Acme', sans-serif;
     height: 45px;
     background-color: #304233; /*#333333;*/
@@ -29,12 +29,24 @@ body {
         margin-left: auto;
     }
 
+    .posright {
+        font-size:  17px;
+        color: #ffbf00;
+        float:right;
+        line-height: 45px;
+
+        a{
+          color:  #ffbf00;
+        }
+    }
+
     ul {
+        position: absolute;
         list-style-type: none;
         overflow: hidden;
         width:260px;
-        margin-left: auto;
-        margin-right: auto;
+        left: 50%;
+        margin-left: -130px;
 
         li{
               float: left;
@@ -86,15 +98,58 @@ body {
     clear: both;
 }
 
-img{
-  margin-top: 5px;
-  margin-bottom: 5px;
+.slide-up{
+
+  height: 290px;
+  overflow: hidden;
+
+  img{
+    width: 220px;
+    height: 290px;
+    overflow: hidden;
+
+  }
+
+
+
+  &:hover{
+    img:nth-child(1){
+      opacity: 0;
+    }
+
+    img:nth-child(2){
+      margin-top: -310px;
+      opacity: 1;
+      -webkit-transform: rotate(0);
+      -moz-transform: rotate(0);
+    }
+  }
+
+  img:nth-child(1){
+    opacity:1;
+
+    -webkit-transition: opacity 0.8s linear;
+    -moz-transition: opacity 0.8s linear;
+  }
+  img:nth-child(2){
+
+    opacity: 0;
+
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+  }
+
 }
+
 
 .image{
     margin: 15px;
     width: 250px;
     float: left;
+    overflow:  hidden;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -109,7 +164,7 @@ img{
 
 .well {
     border: 0px;
-    margin-top: 10px;
+    margin-top: 30px;
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     border-radius: 15px;
@@ -124,10 +179,7 @@ img{
     border-radius: 12px;
 }
 
-p {
-    font-size: 17px;
-    font-family: 'Istok Web', sans-serif;
-}
+
 
 ul{
     li{
@@ -137,6 +189,7 @@ ul{
 .title, h3{
   font-family: 'Titillium Web', sans-serif;
 }
+
 .indent {
     position: relative;
     left: 40px;

@@ -1,0 +1,66 @@
+kor:
+  name: "송형석 (Andrew Song)"
+  about: "About me"
+  works:
+    SSHS_html: "<h3>서울과학고등학교</h3>
+                                  <h4>2006년 3월 ~ 2009년 2월</h4>
+                                  <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp; 서울과학고등학교는 수학과 과학에 조예가 깊은 학생들을 가르치는 특수목적고등학교입니다.
+                                    서울과학고에 재학 중 학생회장으로 1년 임기를 수행하였으며, 물리 실험 동아리, 학급 회장 등도 역임을 하였습니다. 제
+                                    전공은 물리학이였으며, 한국물리올림피아드(KPhO) 금상 2회 수상, 국제물리올림피아드 최종 후보, 서울과학고 교내물리경시대회
+                                    대상 등을 수상하였습니다.
+                                  </p>"
+    MIT_html: "<h3>MIT 학부 (2015년 졸업 예정)</h3>
+                  <h4>2009년 8월 ~ 2010년 12월 / 2013년 2월 ~ 현재</h4>
+                  <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp; MIT 학부생 3학년으로써 전기컴퓨터공학부에서 공부를 하고 있습니다. 2011년 봄 학기부터 4학기 동안은 군복무로 인해
+                    휴학을 하였고, 2013년 봄학기부터 복학을 다시 하였습니다.
+                  </p>"
+
+    CSAIL_html:  "<h3>MIT CSAIL 연구원</h3>
+                      <h4>2013년 6월 ~ 현재</h4>
+                      <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp; MIT CSAIL 소속의 <strong>The ALFA (Anyscale Learning For All) group</strong> 학부생 연구원으로써
+                        Una May O'Reilly (Principal Investigator)와 Kalyan Veeramachaneni (Research Scientist)와 함께 일을 하고 있습니다. 현재 연구 분야는
+                        진화 알고리즘, 빅 데이터, 머신 러닝으로써, 궁극적으로는 여러 진화 알고리즘(Genetic Algorithm & Genetic Programming)을 통하여
+                        여러 종류의 데이터에서 일정한 패턴과 결과를 도출해낼 수 있는 classifier 시스템을 만들고자 합니다.
+                      </p>"
+    UNIFIL_html: "<h3>레바논 UN 평화유지군 (UNIFIL)</h3>
+                     <h4>2012년 1월 ~ 2012년 8월</h4>
+                     <p>
+                     &nbsp;&nbsp;&nbsp;&nbsp; 동명부대 제 10진의 무선통신병이자 영어통역병으로써 선발되어, UN 평화유지군 (UNIFIL - United Nations Interim Force in Lebanon)
+                     의 일원으로 레바논에서 대략 7개월 동안 임무를 수행하였습니다. 제 주요 임무는 특전사 작전팀과의 연락망 개통과 유지, Inmarsat, Thuraya, 그리고 Iridium 등
+                     각종 위성장비 설치 및 운영이었습니다. 또한 UNIFIL 사령부 통신부서와 동명부대 통신중대 연락관으로써 통역업무와 각종 군수 관련 업무를 하였습니다.<br>
+                       &nbsp;&nbsp;&nbsp;&nbsp; 7개월 간의 임무 수행 이후, 대한민국을 대표하여 동명부대원들과 함께 UNIFIL 총사령관으로부터 UN 평화유지군 메달을 수여받았습니다.
+                     </p>"
+    KSA_html: "<h3>MIT 한인학생회 (KSA) - 웹 마스터</h3>
+                                 <h4>2013년 4월 ~ 현재</h4>
+                                 <p>
+                                   &nbsp;&nbsp;&nbsp;&nbsp; 2013년 4월부로 웹 마스터라는 직책으로 한인학생회 임원이 되었습니다.
+                                   제는 주로<a href='http://ksa.mit.edu' target='_blank'>KSA 웹사이트</a>,
+                                   <a href='https://www.facebook.com/pages/MIT-KSA/198424940189002?fref=ts' target='_blank'>페이스북 월</a> 관리
+                                   등 Web 관련 업무를 담당하고 있으며, 다른 임원들을 도와서 한국 문화를 알리기 위한 여러가지 정기 행사를 기획하고 준비합니다.
+                                   한인학생회에서 더 많은 정보를 얻고 싶으시면 한인학생회 웹사이트를 방문해주시기 바랍니다.
+                                 </p>"
+    OORI_html: "<h3>MIT 우리 사물놀이패 - 부회장</h3>
+                                  <h4>2013년 6월 ~ 현재</h4>
+                                  <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp; '우리'는 대학원생과 학부생으로 이루어진 MIT 사물놀이패입니다. 매주 정기적으로 연습을 하고 있으며,
+                                     하버드 대학, 보스턴 대학 등을 포함한 많은 보스턴 지역에서 많은 공연을 하고 있습니다. MIT 우리의 연습 및 공연 영상을 관람하시고 싶으시면
+                                     MIT 우리 <a href='http://www.youtube.com/user/mitooripae' target='_blank'>Youtube page</a>를 방문하시기 바랍니다.
+                                  </p>"
+  main_intro_html: "<p>
+  &nbsp;&nbsp;&nbsp;&nbsp; 현재 저는 MIT에서 전자컴퓨터공학부 학부 3학년(2015년 6월 졸업 예정)에 재학 중입니다.
+  대한민국과 미국에 시민권이 있고, 국방의 의무를 다하고자 2011년 1월부터 2013년 10월까지 육군 현역으로
+  강원도 횡성 지방에서 복무를 했었습니다. 군 복무 중, UN 평화유지군의 일원으로 6개월 간 레바논에 파병되어 활동할
+  기회가 있었습니다. 더 자세한 내용은 위의 'About Me' 에서 확인을 하시기 바랍니다.
+  </p>
+
+  <p>
+  &nbsp;&nbsp;&nbsp;&nbsp; 현재 저는 MIT의 CSAIL(Computer Science and Artificial Intelligence Laboratory) 연구실 산하에
+  있는 <a href='http://groups.csail.mit.edu/EVO-DesignOpt/' target='_blank'>The ALFA group</a>에서
+  <strong>진화 알고리즘 (Evolutionary Algorithm)</strong>에 대해서 연구를 하고 있습니다.
+  </p>
+
+  <p>&nbsp;&nbsp;&nbsp;&nbsp; 저에게 연락을 하실 용건이 있으신 분들은 위의 이메일 주소를 혹은 저의 facebook 페이지를 통해서 연락을 주시기 바랍니다.</p>
+  "
