@@ -2,7 +2,7 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  name: "Andrew Song (Hyungsuk Song)"
+  name: "Andrew Hyungsuk Song"
   about: "About me"
   works:
     SSHS_html: "<h3>Seoul Science High School</h3>
@@ -47,13 +47,13 @@ en:
                      <a href='https://www.facebook.com/pages/MIT-KSA/198424940189002?fref=ts' target='_blank'>facebook page</a>, and many more. Moreover,
                      all exec members strive hard to help spread the korean culture to MIT students by holding a lot of events. Check out the web page for more detail!
                    </p>"
-    OORI_html: "<h3>MIT Oori - Vice President</h3>
+    OORI_html: "<h3>MIT Oori - Vice President / Web Master</h3>
                    <h4>2013 June ~ Present</h4>
                    <p>
-                     &nbsp;&nbsp;&nbsp;&nbsp;Oori is MIT student pungmul group. Pungmul is an ancient traditional Korean art form involving drumming, dancing, and singing.
-                     It originated at least several hundreds of years ago and became a prominent part of Korea's historically agrarian society. We are currently performing at
-                     a lot of events in Boston area; we have played at Harvard, Boston University, and many more. To check what pungmul is like, please visit MIT oori youtube
-                     page <a href='http://www.youtube.com/user/mitooripae' target='_blank'>here</a>.
+                     &nbsp;&nbsp;&nbsp;&nbsp;Oori is MIT student samulnori group. We are currently performing at
+                     a lot of events in Boston area; we have played at Harvard, Boston University, and many more. To check what samulnori is like
+                     and Oori in general, please visit MIT Oori Website
+                     <a href='http://oori.mit.edu' target='_blank'>here</a>.
                    </p>"
   main_intro_html: "<p>
                            &nbsp;&nbsp;&nbsp;&nbsp;I am a junior at MIT (Class of 2015), currently majoring in Electrical Engineering & Computer Science.
@@ -73,4 +73,4 @@ en:
                            are strongly correlated with how Arsenal has performed that week.
                          </p>
 
-                         <p>&nbsp;&nbsp;&nbsp;&nbsp;If you have any questions about me, please contact me through my email address above, or my facebook account</p>"
+                         <p>&nbsp;&nbsp;&nbsp;&nbsp;If you have any questions about me, please contact me through my email address below, or my facebook account</p>"

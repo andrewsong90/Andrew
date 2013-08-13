@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130627034018) do
+ActiveRecord::Schema.define(:version => 20130811194954) do
 
   create_table "blogs", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -21,6 +21,31 @@ ActiveRecord::Schema.define(:version => 20130627034018) do
   create_table "posts", :force => true do |t|
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "project_translations", :force => true do |t|
+    t.integer  "project_id"
+    t.string   "locale"
+    t.string   "title"
+    t.string   "description"
+    t.string   "date"
+    t.string   "url"
+    t.string   "skill"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "project_translations", ["locale"], :name => "index_project_translations_on_locale"
+  add_index "project_translations", ["project_id"], :name => "index_project_translations_on_project_id"
+
+  create_table "projects", :force => true do |t|
+    t.string   "title"
+    t.string   "date"
+    t.string   "url"
+    t.string   "skill"
+    t.string   "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "users", :force => true do |t|

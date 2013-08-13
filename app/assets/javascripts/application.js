@@ -17,20 +17,5 @@
 
 $(document).ready(function(){
 
-    console.log("hi");
-    var offset=$("#sidebar").offset();
-    var topPadding = 50;
 
-    $(window).scroll(function(){
-        console.log("hello");
-        if($(window).scrollTop()>offset.top){
-            $("#sidebar").stop().animate({
-                marginTop: $(window).scrollTop() - offset.top + topPadding
-            });
-        } else {
-            $("#sidebar").stop().animate({
-                marginTop: 0
-            });
-        }
-    });
 });

@@ -15,7 +15,7 @@ class BlogsController < ApplicationController
   end
 
   def works
-
+    @projects = Project.all
   end
 
   def contacts

@@ -1,6 +1,42 @@
+$nav-height: 100px;
+
+*{
+  margin: 0;
+}
+
+
+.wrapper{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -70px;
+}
+
+
+html,body {
+  min-width: 400px;
+  height: 100%;
+}
+
+.footer, .push{
+  height: 70px;
+}
+
+.footer{
+  background-color: #ccedfb;
+  padding-top:  20px;
+
+  div{
+    margin-left: auto;
+    margin-right:auto;
+    width: 470px;
+  }
+}
+
 
 body {
-    background: url("/assets/green_background2.jpg") center center fixed;
+
+    background: url("/assets/grey_background.jpg") center center fixed;
     background-repeat: repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -8,59 +44,134 @@ body {
 
 }
 
+.container {
+  border: 0px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #e5e5fe;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+
+  -moz-box-shadow: 5px 5px 5px 1px #000000;
+  -webkit-box-shadow: 5px 5px 5px 1px #000000;
+  box-shadow: 5px 5px 5px 1px #000000;
+}
+
+
 .title {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
 }
 
+@media all and (min-width: 1000px){
+  .content{
+    width: 570px;
+  }
+
+  .image{
+    margin: 15px;
+    float: left;
+  }
+
+  .coursework{
+    margin-left: 240px;
+  }
+}
+
+@media all and (min-width: 640px) and (max-width: 999px){
+
+  .container{
+    width: 560px;
+  }
+
+  .content{
+    width: 500px;
+  }
+
+  .image{
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  .thumb{
+    padding-top: 15px;
+  }
+
+  .coursework{
+    margin-left: 100px;
+  }
+}
+
+@media all and (max-width: 639px){
+
+  .container{
+    width:  400px;
+  }
+
+  .content{
+    width:  350px;
+  }
+
+  .image{
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  .thumb{
+    padding-top: 15px;
+  }
+
+  .coursework{
+    margin-left: 10px;
+  }
+}
+
 .custom {
     position: relative;
     font-family: 'Acme', sans-serif;
-    height: 45px;
-    background-color: #304233; /*#333333;*/
+    height: $nav-height;
+    background-color: #0096d3;/*#304233;  #333333;*/
     top: 0;
     left: 0;
     right: 0;
 
-    .nav {
-        width:400px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+    .customnav{
+      margin-left: auto;
+      margin-right: auto;
+      line-height: $nav-height;
+      font-size: 25px;
+      color: #ffffff;
+      width:350px;
 
-    .posright {
-        font-size:  17px;
-        color: #ffbf00;
-        float:right;
-        line-height: 45px;
-
-        a{
-          color:  #ffbf00;
-        }
-    }
-
-    ul {
-        position: absolute;
-        list-style-type: none;
-        overflow: hidden;
-        width:260px;
-        left: 50%;
-        margin-left: -130px;
-
-        li{
-              float: left;
-              margin-top: 10px;
-              margin-left: 7px;
-              margin-right: 7px;
-              font-size: 18px;
-
-          a{
-              color: #FFBF00;
-            }
-        }
+      a{
+        color:  #ffffff;
+      }
     }
 }
+
+
+
+.posright {
+  font-size:  17px;
+  color: #ffffff;
+  float:right;
+  width: 120px;
+  text-align: center;
+  line-height: $nav-height*0.4;
+  border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  background-color: #003e57;
+
+  a{
+    color:  #ffffff;
+  }
+}
+
 p > a {
     color: #005188;
 }
@@ -70,7 +181,7 @@ a:hover {
 }
 
 body {
-    background-color: #acd16c;
+    background-color: #ffffff;
 }
 
 
@@ -84,19 +195,39 @@ body {
     -webkit-border-radius: 15px;
     border-radius: 15px;
     margin: 15px;
-    background-color: #a9dba9;
+    padding: 15px;
+    background-color: lightblue;
 }
 
 
 .thumb .content{
     margin: 10px;
     float: left;
-    width: 570px;
 }
 
 .clear{
     clear: both;
 }
+
+
+
+.thumbnail{
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.thumnail_wrapper{
+  float:left;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  p{
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
 
 .slide-up{
 
@@ -146,20 +277,17 @@ body {
 
 
 .image{
-    margin: 15px;
     width: 250px;
-    float: left;
     overflow:  hidden;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-
 }
 
 
 
 #sidebar {
-    background-color: #dbd589;
+    background-color: #beccdb;
 }
 
 .well {
@@ -169,17 +297,6 @@ body {
     -webkit-border-radius: 15px;
     border-radius: 15px;
 }
-
-.container {
-    border: 0px;
-    margin-top: 30px;
-    background-color: #738b48;
-    -moz-border-radius: 12px;
-    -webkit-border-radius: 12px;
-    border-radius: 12px;
-}
-
-
 
 ul{
     li{

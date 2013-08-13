@@ -1,63 +1,73 @@
 <% provide(:title, "works") %>
-<div class="container">
+      <h3 style="text-align: center;">Projects</h3>
 
-    <div class="offset2 span8">
-        <h3>Skills</h3>
+        <% @projects.each do |project| %>
+            <div class="thumb">
+              <div class="xlarge georgia bold"><%= project.title %></div>
+              <br>
+              <i class="icon-calendar"></i>&nbsp;&nbsp;<span class="large georgia"><%= project.date %></span><br>
+              <i class="icon-external-link"></i>&nbsp;&nbsp;<span class="large georgia"><a href='<%= project.url%>' target="_blank"><%= project.url %></a></span><br>
+              <i class="icon-book"></i>&nbsp;&nbsp;<span class="large georgia"><%= project.skill%></span>
+              <br><br>
+              <p>
+                <%= project.description.html_safe %>
+              </p>
+            </div>
+        <% end %>
+
+      <br>
+
+      <h3 style="text-align: center;">Skills</h3>
         <p>
 
-          <ul>
-            <strong>
-            <li> Ruby On Rails</li>
-            <li> HTML5 & CSS</li>
-            <li> Javascript & JQuery</li>
-            <li> Java </li>
-            <li> C language</li>
-            <li> OpenStack (Cloud Computing)</li>
-            </strong>
-          </ul>
+
+            <div class="thumnail_wrapper"><img src="/assets/ror.jpg" class="thumbnail" alt="ROR"/><p>Ruby On Rails</p></div>
+            <div class="thumnail_wrapper"><img src="/assets/HTML5.png" class="thumbnail" alt="HTML5"/><p>HTML5 & CSS</p></div>
+            <div class="thumnail_wrapper"><img src="/assets/jquery.png" class="thumbnail" alt="HTML5"/><p>JQuery &<br>&nbsp;&nbsp;Javascript</p></div>
+            <div class="thumnail_wrapper"><img src="/assets/Java.jpg" class="thumbnail" alt="JAVA"/><p>Java</p></div>
+            <div class="thumnail_wrapper"><img src="/assets/python.jpg" class="thumbnail" alt="Python"/><p>Python</p></div>
+            <div class="thumnail_wrapper"><img src="/assets/C.jpg" class="thumbnail" alt="C"/><p>C language</p></div>
+            <div class="thumnail_wrapper"><img src="/assets/openstack.jpg" class="thumbnail" alt="openStack"/><p>OpenStack</p></div>
+              <div class="clear"></div>
         </p>
       <br>
-        <h3>Coursework in MIT</h3>
 
-        <p>
-            <strong>2013 Spring Semester (Sophomore)</strong><br>
-            <ul>
-                <li> 6.003 Signals & Systems</li>
-                <li> 6.041 Probabilistic Systems Analysis </li>
-                <li> 6.170 Software Studio</li>
-                <li> 6.004 Computation Structures</li>
-                <li> 15.401 Finance Theory I</li>
-            </ul>
-        </p>
-        <p>
-          <strong>2010 Fall Semester (Sophomore)</strong><br>
-            <ul>
-                <li> 6.005 Elements of Software Construction</li>
-                <li> 6.006 Introduction to Algorithms</li>
-                <li> 18.03 Differential Equations</li>
-                <li> CMS.100 Introduction to Media Stuides</li>
-                <li> 6.01 Introduction to EECS I (Lab Assistant) </li>
-            </ul>
-        </p>
-        <p>
-          <strong>2010 Spring Semester (Freshman)</strong><br>
-            <ul>
-                <li> 6.01 Introduction to EECS I</li>
-                <li> 6.02 Introduction to EECS II</li>
-                <li> 14.01 Principle of Microeconomics</li>
-                <li> 7.013 Introductory Biology</li>
-            </ul>
-        </p>
-        <p>
-          <strong>2009 Fall Semester (Freshman)</strong><br>
-            <ul>
-                <li> 18.022 Calculus</li>
-                <li> 3.091 Introduction to Solid-State Chemistry</li>
-                <li> MAS.100 Fundamental of Computational Media Design</li>
-                <li> 21F.222 Expository Writing for Bilingual Students</li>
-            </ul>
-        </p>
+        <h3 style="text-align: center;">Coursework in MIT</h3>
+        <br>
+        <div class="coursework">
+            <p>
+                <strong class="large">2013 Sophomore Spring</strong><br>
+                    <i class="icon-pencil"></i>&nbsp;<span><strong> 6.003</strong> Signals & Systems</span><br>
+                    <i class="icon-pencil"></i>&nbsp;<span><strong> 6.041</strong> Probabilistic Systems Analysis </span><br>
+                    <i class="icon-pencil"></i>&nbsp;<span><strong> 6.170</strong> Software Studio</span><br>
+                    <i class="icon-pencil"></i>&nbsp;<span><strong> 6.004</strong> Computation Structures</span><br>
+                    <i class="icon-pencil"></i>&nbsp;<span><strong> 15.401</strong> Finance Theory I</span><br>
+            </p>
+
+            <p>
+              <strong class="large">2010 Sophomore Fall</strong><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> 6.005</strong> Elements of Software Construction</span><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> 6.006</strong> Introduction to Algorithms</span><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> 18.03</strong> Differential Equations</span><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> CMS.100</strong> Introduction to Media Studies</span><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> 6.01</strong> Introduction to EECS I (Lab Assistant) </span><br>
+            </p>
+
+            <p>
+              <strong class="large">2010 Freshman Spring</strong><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> 6.01</strong> Introduction to EECS I</span><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> 6.02</strong> Introduction to EECS II</span><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> 14.01</strong> Principle of Microeconomics</span><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> 7.013</strong> Introductory Biology</span><br>
+            </p>
+
+            <p>
+              <strong class="large">2009 Freshman Fall</strong><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> 18.022</strong> Calculus</span><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> 3.091</strong> Introduction to Solid-State Chemistry</span><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> MAS.100</strong> Fundamental of Computational Media Design</span><br>
+              <i class="icon-pencil"></i>&nbsp;<span><strong> 21F.222</strong> Expository Writing for Bilingual Students</span><br>
+            </p>
+        </div>
       <br>
-      <h3>Projects</h3>
-    </div>
-</div>
+

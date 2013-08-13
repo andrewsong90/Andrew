@@ -31,22 +31,24 @@
 
 </head>
 <body>
-
+<div class="wrapper">
     <div>
 
         <div class="custom">
 
-            <ul>
-                  <li><a href='<%= main_path %>'>Andrew Song</a></li>
-                  <li><a href='<%= about_path %>'><%= t "about" %></a></li>
-                  <li><a href='<%= works_path %>'>Works</a> </li>
-            </ul>
+
+            <div class="customnav">
+              <a href='<%= main_path %>'>Andrew Song</a>
+              &nbsp;|&nbsp;
+              <a href='<%= about_path %>'><%= t "about" %></a>
+              &nbsp;|&nbsp;
+              <a href='<%= works_path %>'>Works</a>
+            </div>
 
           <div class="posright">
             <%= link_to_unless_current "English", locale: "en" %>
             &nbsp;
             <%= link_to_unless_current "한글", locale: "kor"%>
-            &nbsp;&nbsp;
           </div>
 
 
@@ -62,11 +64,18 @@
     <div class="container">
         <%= yield %>
       <br><br>
-      <% if false %>
-        <a href="https://twitter.com/GreatAndrew90" class="twitter-follow-button" data-size="large" data-lang="en">Follow @GreatAndrew90</a>
-      <% end %>
-    </div>
 
+    </div>
+  <div class="push"></div>
+</div>
+
+<div class="footer">
+  <div>
+    <span class="large georgia"><i class="icon-envelope"></i>&nbsp;&nbsp;andrewsong90@gmail.com / andrew90@mit.edu</span>
+    <br>
+    <span class="large georgia"><i class="icon-briefcase"></i>&nbsp;&nbsp;Last Updated on : August 14th. 2013</span>
+  </div>
+</div>
 
 </body>
 </html>
