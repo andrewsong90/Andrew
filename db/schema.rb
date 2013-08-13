@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130813215421) do
+ActiveRecord::Schema.define(:version => 20130813220555) do
 
   create_table "blogs", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(:version => 20130813215421) do
     t.integer  "project_id"
     t.string   "locale"
     t.string   "title"
-    t.string   "description"
+    t.text     "description"
     t.string   "date"
     t.string   "url"
     t.string   "skill"

@@ -54,6 +54,7 @@
     <file path="/Gemfile.lock" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1376347409682" ignored="false" />
     <file path="/20130813215145_pgchange.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1376430756343" ignored="false" />
     <file path="/20130813215421_pgchange2.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1376430878094" ignored="false" />
+    <file path="/20130813220555_pg_translation.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1376431577943" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,15 +88,6 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="44" column="42" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="30" selection-start="2551" selection-end="2551" vertical-scroll-proportion="-19.178572">
               <folding />
             </state>
           </provider>
@@ -140,7 +132,16 @@
       <file leaf-file-name="schema.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="56" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.8068493">
+            <state line="42" column="56" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.7136986">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130813220555_pg_translation.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130813220555_pg_translation.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="75" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20130811194954_create_translations_projects.rb" />
         <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
@@ -198,6 +198,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20130813215145_pgchange.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130813215421_pgchange2.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130813220555_pg_translation.rb" />
       </list>
     </option>
   </component>
@@ -1019,13 +1020,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="29" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
@@ -1126,9 +1120,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130813220555_pg_translation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="75" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="56" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.8068493">
+        <state line="42" column="56" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.7136986">
           <folding />
         </state>
       </provider>
