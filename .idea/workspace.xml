@@ -2,125 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0563d8d-50d9-4a7d-9f62-19045874bfbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/C.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/HTML5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/Java.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/grey_background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/jquery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logo_min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/openstack.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/python.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/ror.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/font-awesome.css.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/font.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/fontawesome-webfont.svg" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\app\assets\images\samul.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\KSA-24a356a635b271ad61854c820c0c7351.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\KSA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\MIT-5be1838c0ff18df0ec4c8da04db9f3eb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\MIT.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\SSHS-23fc355a600deee06cecbf5243684a2d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\SSHS.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\UNIFIL-48c9eb5b08f9be60b567f2d7fcc625ff.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\UNIFIL.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\andrew-a18dd77d3ebdc8be157d24d435e326f0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\andrew.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\andrew2-4f739815b7eb0c5a1d625adf9652bb29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\andrew2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\application-47d5e73c414fb25fa4e2d0f4b3a5ff87.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\application-47d5e73c414fb25fa4e2d0f4b3a5ff87.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\application-ef3412502f362042dde6950b972a53a4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\application-ef3412502f362042dde6950b972a53a4.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\application.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\application.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\application.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\application.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\background-4d4517cf1911d5e1457045f142b29d71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\bootstrap-188e1db1a2ffea9f6b6520e331e84198.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\bootstrap-188e1db1a2ffea9f6b6520e331e84198.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\bootstrap-e31199f1b517cd5690f905ef578e3c82.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\bootstrap-e31199f1b517cd5690f905ef578e3c82.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\bootstrap.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\bootstrap.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\coffee-script-4eec3a9216929629f1eb101bc077e79f.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\coffee-script-4eec3a9216929629f1eb101bc077e79f.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\coffee-script.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\coffee-script.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\csail-5f8285ea4e78f410828c745388200895.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\csail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\font_en-29deee9aa2a3348d480888ebbadf58b2.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\font_en-29deee9aa2a3348d480888ebbadf58b2.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\font_en.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\font_en.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\font_kor-57f73eeb9c3c67698153add4fe2c3e06.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\font_kor-57f73eeb9c3c67698153add4fe2c3e06.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\font_kor.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\font_kor.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\green_background-7e7e88722cdd41b679fb4f0b3259f93e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\green_background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\green_background2-6cf0c32328e3593eb9be76fbb5d89086.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\green_background2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery-a6476dc65eb9dae7616b701d0a9a0346.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery-a6476dc65eb9dae7616b701d0a9a0346.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery.min-8b58c0fbf303b938d8e749262f7e50dd.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery.min-d407b821c6aa37d0992023d5261def01.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery.min-d407b821c6aa37d0992023d5261def01.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery.min.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery_ujs-b19eba54b37fae6bc69dedf202f946ab.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery_ujs-b19eba54b37fae6bc69dedf202f946ab.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery_ujs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\jquery_ujs.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\lebanon-5fdb70fc57f962af8289a9e3e384d68f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\lebanon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\manifest.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\rails-a3386665c05a2d82f711a4aaa72d247c.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\rails.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\samul-1153b5b44daa904144dc30bca786e49a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\samul.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\sessions-0f36418a56408e609fbea9892fac1a67.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\sessions-0f36418a56408e609fbea9892fac1a67.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\sessions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\sessions.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\style-6424d1aca4616fab424c7245f5d9d184.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\style-6424d1aca4616fab424c7245f5d9d184.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\style.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\youtube_api-b812996ccb98d783a82e685c51e48e70.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\youtube_api-b812996ccb98d783a82e685c51e48e70.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\youtube_api.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Github\Andrew\public\assets\youtube_api.js.gz" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Andrew.iml" afterPath="$PROJECT_DIR$/.idea/Andrew.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/blogs/about.html.erb" afterPath="$PROJECT_DIR$/app/views/blogs/about.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/blogs/index.html.erb" afterPath="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/kor.yml" afterPath="$PROJECT_DIR$/config/locales/kor.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/blogs/works.html.erb" afterPath="$PROJECT_DIR$/app/views/blogs/works.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/youtube_api.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/youtube_api.js" />
     </list>
     <ignored path="Andrew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -170,6 +52,8 @@
     <file path="/project.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1376250937368" ignored="false" />
     <file path="/20130811194954_create_translations_projects.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1376250706840" ignored="false" />
     <file path="/Gemfile.lock" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1376347409682" ignored="false" />
+    <file path="/20130813215145_pgchange.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1376430756343" ignored="false" />
+    <file path="/20130813215421_pgchange2.rb" changelist="d0563d8d-50d9-4a7d-9f62-19045874bfbb" time="1376430878094" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,13 +80,6 @@
                 <element signature="n#style#0;n#h3#2;n#!!top" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/jquery.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -233,15 +110,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="en.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -251,10 +119,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kor.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="kor.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/locales/kor.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="53" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.4694149">
+            <state line="51" column="53" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130813215145_pgchange.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130813215145_pgchange.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="2" selection-start="43" selection-end="108" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="56" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.8068493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130813215421_pgchange2.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130813215421_pgchange2.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="46" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -264,15 +159,6 @@
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="0" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="20" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -296,9 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/font.css.scss" />
-        <option value="$PROJECT_DIR$/db/migrate/20130811011343_create_projects.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130811194954_create_translations_projects.rb" />
         <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
@@ -312,6 +195,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/config/locales/kor.yml" />
+        <option value="$PROJECT_DIR$/db/migrate/20130813215145_pgchange.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130813215421_pgchange2.rb" />
       </list>
     </option>
   </component>
@@ -1133,25 +1019,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="54" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130811194954_create_translations_projects.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="93" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="27" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
@@ -1240,7 +1107,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/kor.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="53" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.4694149">
+        <state line="51" column="53" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130813215145_pgchange.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="43" selection-end="108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130813215421_pgchange2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="46" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="56" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.8068493">
           <folding />
         </state>
       </provider>
